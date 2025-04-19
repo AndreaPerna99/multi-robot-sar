@@ -5,13 +5,6 @@ Search and Rescue simulation using distributed BDI agents with aggregative optim
 
 ---
 
-## 📽️ Demo
-
-[![Watch the video](https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)  
-👉 Click above to watch the full simulation in action.
-
----
-
 ## 🧠 About the Project
 
 This project simulates a team of autonomous robots performing **search and rescue (SAR)** operations using a distributed **Belief-Desire-Intention (BDI)** framework. Each robot operates as a decentralized agent, coordinating with others via **gradient tracking** and **consensus algorithms** to:
