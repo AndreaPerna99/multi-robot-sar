@@ -1,0 +1,6 @@
+Entrance
+Kitchen
+Office
+Room
+Living Room
+Exit

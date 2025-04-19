@@ -1,0 +1,119 @@
+# Multi-Agent System 2023/24, Master's Degree in Artificial Intelligence
+# Distributed Multi-Robot Search and Rescue Operations Using Aggregative Optimization in a Multi-Room House Environment
+# University of Bologna
+# Project Parameters
+# Andrea Perna, andrea.perna3@studio.unibo.it, Automation Engineering
+
+# Meaning of parameters' labels
+# T: Tunable parameters: they do not change significantly the code's behavior;
+# CT: Carefully tunable parameters: they may change the code's behavior and create issues and/or conflicts, it is important to put reasonable and proper values
+# NT: Non-tunable parameters: they significantly change the system's behavior potentially leading to conflicts and issues
+
+#########################################
+############### Agents ##################
+#########################################
+
+NN: 4 # T - number of agents
+n_z: 2 # NT - data's dimensions
+random_init: False # NT - random initialization
+
+#########################################
+############### House ##################
+#########################################
+
+ENTRANCE: [-5, 5] # NT - entrance coordinates
+EXIT: [15, 5] # NT - exit coordinates
+plot_margin: 2 # NT - house's plot offset
+opening_width: 1.0 # NT - width of the openings
+house_gain: 1.0 # NT - house's weight factor
+
+#########################################
+############### Algorithm ###############
+#########################################
+
+step_size: 0.01 # CT - optimization stepsize (0.01 best, 0.005 slow, 0.02 fast)
+MAXITERS: 20000 # CT - mission's deadline (it should be enough)
+dt: 3 # NT - discretization factor
+global_goal_threshold: 0.01 # NT - goal check distance
+skip_iter_factor: 280 # NT - skip iterations for logs 
+rooms_order: "heat" # NT - rooms selection
+reasoning_method: 'BDI' # NT - reasoning method
+logs_enabled: False # T - enable logs visualization
+
+#########################################
+################ Graph ##################
+#########################################
+
+p_ER: 0.3 # NT - probability of edge's connection
+
+#########################################
+############# Cost Function #############
+#########################################
+
+gamma_r_lt: 0.9 # NT - gain for local targets
+gamma_agg: 0.4 # NT - gain for barycenter's attraction
+gamma_bar: 0 # NT - gain for global targets
+K: 0.15 # NT - gain for potential functions
+q_star: 0.1 # NT - safety distance for obstacles' handling (0.15)
+barrier_step: 0.23 # CT - obstacle discretization
+
+#########################################
+############# Survivors #################
+#########################################
+
+n_survivors: 15 # T - number of survivors to be saved
+max_survivors_escort: 4 # T - maximum number of survivors per formation
+survivors_spread: 0.4 # CT - spread of survivors around barycenter
+person_step_size: 0.05 # CT - speed of people movements
+escorted_radius: 0.2 # NT - radius of survivors' formation 
+
+#########################################
+############### Ambulance ###############
+#########################################
+
+ambulance: # NT - ambulance parameters
+
+  width: 2 
+  height: 4
+  mov_step: 0.1
+  light_radius: 0.2
+  cross_size: 0.6
+  opening_width: 0.5
+  opening_height: 1.3
+  wheel_width: 0.5
+  wheel_height: 0.2
+  return_countdown: 0
+  return_iterations: 100
+  tolerance: 0.1
+
+#########################################
+############### Heatmap #################
+#########################################
+
+show_heatmap: True # T - show rooms' heatmap 
+heatmap_factor: 2 # NT - probability assignment
+
+#########################################
+############### Animation ###############
+#########################################
+
+goal_marker_size: 7 # T - size of markers
+trajectory_colour: 'tab:blue' # T - colour for robots' trajectories
+barycenter_colour: 'tab:red' # T - colour for barycenter's estimate
+robot_colour: '#1f77b4' # T - colour for robots
+robot_size: 8 # CT - size of robots
+view_type: 'dynamic' # T - camera type (either static or dynamic)
+animation: True # T - allow animation
+dt: 10 # NT - sub-sampling of the plot horizon
+show_obstacle_points: False # T - obstacles' visualization
+show_local_targets: False # T - local targets visualization
+show_global_targets: False # T - global targets visualization
+
+#########################################
+############### Targets #################
+#########################################
+
+radius: 1.0 # CT - radius of formation
+gain_mid: 0.5 # CT - formation's gains for midpoints
+gain_room: 1.2 #(0.8) CT - formation's gains for rooms
+gain_out: 1.8 # CT - formation's gains for outside
