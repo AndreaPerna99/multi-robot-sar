@@ -88,9 +88,6 @@ The simulation generates:
 #### 🧭 Static View
 ![Static View](./images/static_view.png)
 
-#### 📉 Cost Evolution
-![Cost_Evolution](./images/cost_evolution.png)
-
 ### 📽️ Project Videos
 
 - 📹 [Dynamic View Animation](./videos/Animation_Dynamic_View.mp4)
