@@ -93,7 +93,7 @@ The simulation generates:
 ## 👨‍🎓 Author
 
 **Andrea Perna**  
-MSc Artificial Intelligence – University of Bologna  
+MSc Automation Engineering – University of Bologna  
 📧 andrea.perna3@studio.unibo.it
 
 ---
