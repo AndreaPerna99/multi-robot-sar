@@ -1,7 +1,7 @@
 # 🤖 Multi-Robot SAR with Aggregative Optimization & BDI Agents
 
 [![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python)](https://www.python.org/)  
-Search and Rescue simulation using distributed **BDI agents** with **aggregative optimization** in a **multi-room house** environment.
+Search and Rescue simulation using distributed BDI agents with aggregative optimization in a multi-room house environment.
 
 ---
 
