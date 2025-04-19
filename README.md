@@ -32,6 +32,7 @@ Agents dynamically adjust plans, form circular formations, and adapt based on en
 ┣ 📁 images
 ┃ ┣ 🖼️ static_view.png
 ┃ ┣ 🖼️ dynamic_view.mp4
+┣ ┣ 🖼️ cost_evolution.mp4
 ┣ 📁 videos
 ┃ ┣ 🎞️ Animation_Dynamic_View.mp4
 ┃ ┣ 🎞️ Animation_Static_View.mp4
