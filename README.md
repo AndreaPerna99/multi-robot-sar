@@ -22,17 +22,17 @@ Agents dynamically adjust plans, form circular formations, and adapt based on en
 
 ```
 📦 multi-robot-sar
-┣ 📜 Andrea_Perna3_MAS_Project.py                  # Main simulation script
-┣ 📜 Andrea_Perna3_MAS_Parameters.yaml             # Config file with tunable parameters
-┣ 📜 Andrea_Perna3_MAS_Rooms.txt                   # Environment layout
-┣ 📜 README.md                       # You are here!
+┣ 💻 Andrea_Perna3_MAS_Project.py                  # Main simulation script
+┣ 💻 Andrea_Perna3_MAS_Parameters.yaml             # Config file with tunable parameters
+┣ 📄 Andrea_Perna3_MAS_Rooms.txt                   # Environment layout
+┣ 📄 README.md                       # You are here!
 ┣ 📄 Andrea_Perna3_MAS_Report.pdf   # Full technical report
 ┣ 📄 Andrea_Perna3_MAS_Abstract.pdf # Abstract
 ┗ 📊 Andrea_Perna3_MAS_Presentation.pptx # Presentation
 ┣ 📁 images
-┃ ┣ 🖼️ static_view.png
-┃ ┣ 🖼️ dynamic_view.mp4
-┣ ┣ 🖼️ cost_evolution.mp4
+┃ ┣ 📸 static_view.png
+┃ ┣ 📸 dynamic_view.mp4
+┣ ┣ 📸 cost_evolution.mp4
 ┣ 📁 videos
 ┃ ┣ 🎞️ Animation_Dynamic_View.mp4
 ┃ ┣ 🎞️ Animation_Static_View.mp4
