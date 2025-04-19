@@ -35,7 +35,7 @@ Agents dynamically adjust plans, form circular formations, and adapt based on en
 ┣ 📜 README.md                       # You are here!
 ┣ 📄 Andrea_Perna3_MAS_Report.pdf   # Full technical report
 ┣ 📄 Andrea_Perna3_MAS_Abstract.pdf # Abstract
-┗ 📊 Andrea_Perna3_MAS_Presentation.pptx
+┗ 📊 Andrea_Perna3_MAS_Presentation.pptx # Presentation
 ```
 
 ---
