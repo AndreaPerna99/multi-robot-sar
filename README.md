@@ -36,6 +36,9 @@ Agents dynamically adjust plans, form circular formations, and adapt based on en
 ┣ 📄 Andrea_Perna3_MAS_Report.pdf   # Full technical report
 ┣ 📄 Andrea_Perna3_MAS_Abstract.pdf # Abstract
 ┗ 📊 Andrea_Perna3_MAS_Presentation.pptx # Presentation
+┣ 📁 images
+┃ ┣ 🖼️ static_view.png
+┃ ┣ 🖼️ dynamic_view.mp4
 ┣ 📁 videos
 ┃ ┣ 🎞️ Animation_Dynamic_View.mp4
 ┃ ┣ 🎞️ Animation_Static_View.mp4
@@ -84,9 +87,14 @@ The simulation generates:
 - Cost function convergence and barycenter error plots
 - Animated SAR mission (MP4)
 
----
+### 🖼️ Project Snapshots
+- #### 🔄 Dynamic View
+![Dynamic View](./images/dynamic_view.png)
 
-## 🎞️ Project Videos
+#### 🧭 Static View
+![Static View](./images/static_view.png)
+
+### 📽️ Project Videos
 
 - 📹 [Dynamic View Animation](./videos/Animation_Dynamic_View.mp4)
 - 📹 [Static View Animation](./videos/Animation_Static_View.mp4)
