@@ -108,7 +108,7 @@ The simulation generates:
 
 ## 👨‍🎓 Author
 
-**Andrea Perna**  
+Andrea Perna  
 MSc Automation Engineering – University of Bologna  
 📧 andrea.perna3@studio.unibo.it
 
