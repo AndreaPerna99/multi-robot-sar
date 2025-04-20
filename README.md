@@ -4,6 +4,11 @@
 Search and Rescue simulation using distributed BDI agents with aggregative optimization in a multi-room house environment.
 
 ---
+## 📌 Project Info
+- 🎓 Course: Multi-Agent Systems
+- 🏫 University of Bologna
+- 📅 Year: 2025
+---
 
 ## 🧠 About the Project
 
