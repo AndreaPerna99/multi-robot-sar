@@ -115,7 +115,7 @@ The simulation generates:
 
 Andrea Perna  
 MSc Automation Engineering – University of Bologna  
-📧 andrea.perna3@studio.unibo.it
+📧 and.perna99@gmail.com
 
 ---
 
